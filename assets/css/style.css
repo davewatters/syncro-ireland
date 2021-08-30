@@ -7,3 +7,31 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/** 
+* Header, logo & navbar
+*/
+header {
+    background-color: palegreen;
+}
+
+/** 
+* Hero image section
+*/
+#hero-image {
+    background-color: turquoise;
+}
+
+/**
+* Main content section
+*/
+#main-section {
+    background-color: slategrey;
+}
+
+/**
+* Footer
+*/
+#footer {
+    background-color: saddlebrown;
+}
