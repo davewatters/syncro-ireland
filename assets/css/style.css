@@ -19,6 +19,16 @@ body {
     min-height: 100vh;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+}
+
 /** 
 * Header, logo & navbar
 */
@@ -29,16 +39,6 @@ header {
     display: flex;
     height: 7.5rem;
     justify-content: space-between;
-}
-
-h1, h2 {
-    text-transform: uppercase;
-}
-
-li {
-    list-style-type: none;
-    padding: 5px;
-    text-decoration: none;
 }
 
 #logo {
@@ -81,9 +81,19 @@ li {
 /** 
 * Hero image section
 */
-#hero-image {
+#hero-section {
     height: 60vh;
     width: 100%;
+    position: relative;
+}
+
+#hero-image {
+    background: url('../images/vw-mountains-4x4.jpeg') no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 60px:;
 }
 
 /**
