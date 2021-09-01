@@ -88,12 +88,13 @@ header {
 }
 
 #hero-image {
-    background: url('../images/vw-mountains-4x4.jpeg') no-repeat center;
+    background: url('../images/vw-mountains-4x4.jpeg'); 
+    background-repeat: no-repeat;
+    background-position-y: -200px;
     background-size: cover;
     height: 60vh;
     position: absolute;
     width: 100%;
-    margin-bottom: 60px:;
 }
 
 /**
