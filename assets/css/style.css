@@ -110,9 +110,38 @@ header {
 * Footer
 */
 #footer {
-    align-items: center;
     background-color: #344d2c;
+    color: #eef4f4;
     display: flex;
     height: 7rem;
+    justify-content: space-between;
     padding: 10px;
+}
+
+#copyright {
+    width: 400px;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#social-links > ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto, 0;
+    width: 400px;
+}
+
+#social-links {
+    flex-direction: row;
+    font-size: 3.2rem;
+}
+
+#social-links a {
+    color: inherit;
+}
+
+#social-links a:hover {
+    color: #edda1c;
 }
