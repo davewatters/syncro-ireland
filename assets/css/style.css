@@ -90,10 +90,14 @@ header {
 #hero-image {
     background: url('../images/vw-mountains-4x4.jpeg'); 
     background-repeat: no-repeat;
-    background-position-y: -200px;
+    /* 
+        not happy with way image is not balanced in viewport after resizing
+        will have to revisit this later to improve
+    */
+    background-position: center;
+    background-position-y: -190px;
     background-size: cover;
     height: 60vh;
-    position: absolute;
     width: 100%;
 }
 
