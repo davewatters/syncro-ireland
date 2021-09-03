@@ -80,7 +80,7 @@ The site was built to become the main focal point of an annual Irish event for V
 
 -   ### Design
     -   #### Colour Scheme
-        To highight the 'Irishness' of the site a green/white/gold variation was used throughout the site. I chose to base these colours on actual official VW colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. Unfortunately, the VW Pastel White didn't quite have enough contrast with the background, so the off-white choice for the background was between a Ford Polar and a Chrysler Arctic White, both of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour colour contrast testing are included in the [Testing](#testing) section below.
+        To highight the 'Irishness' of the site a green/white/gold variation was used throughout the site. I chose to base these colours on actual official VW colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. The choice for the background was between an off-white VW Pastel White, Ford Polar and a Chrysler Arctic White, all of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour colour contrast testing are included in the [Testing](#testing) section below.
 
         - Colour choices
             - Ford Polar White, #eef4f4  
@@ -158,7 +158,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The colour scheme was tested using this [Contrast Grid Test](https://contrast-grid.eightshapes.com)
     and the results shown here
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="docs/contrast-grid.png"></h2>
+
 -   The Website was tested on Firefox, Safari, Chrome, and browsers.
 -   The website was viewed on a variety of mobile devices such as iPhone7, iPhone 8 & iPhoneX.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
