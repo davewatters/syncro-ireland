@@ -106,14 +106,28 @@ header {
     width: 100%;
 }
 
-/**
+/*
 * Main content section
 */
 #main-section {
+    display: flex;
     flex: 1;
     margin: auto, 0;
-    padding: 20px;
+    padding: 2rem;
 }
+
+.content-text {
+    background-color: palegreen;
+    padding: 2rem;
+    width: 66%;
+}
+
+.content-img-sidebar {
+    background-color: palevioletred;
+    padding: 2rem;
+    width: 33%;
+}
+
 
 /**
 * Footer
@@ -210,7 +224,6 @@ header {
 }
 
 .checkbox {
-    border: 2px solid #edda1c;
     border-radius: 5px;
     height: 3rem;
     padding: ;
