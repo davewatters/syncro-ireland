@@ -25,6 +25,10 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
     padding: 5px;
@@ -68,7 +72,6 @@ header {
 
 #navbar a {
     color: inherit;
-    text-decoration: none;
 }
 
 #navbar a:hover {
@@ -171,56 +174,77 @@ header {
 }
 
 #signup-form {
-    background-color: rgba(238, 244, 244, 0.7);
+    background-color: rgba(238, 244, 244, 0.9);
     border: 3px solid #edda1c;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
-    /* height: 50rem; */
     max-width: 50rem;
-    margin: 3%;
+    margin: 3% 0 0 10%;
 }
 #signup-form h2 {
     padding: 20px;
+    letter-spacing: 4px;
 }
 
 #signup-form input, label {
     margin-left: 2rem;
-    max-width: 40rem;
+    margin-top: 1rem;
+    max-width: 45rem;
 }
 
 .input-field {
-    height: 3rem;
-    border: 1px solid #edda1c;
+    background: transparent;
+    border: 1px solid ;
     border-radius: 2px;
+    height: 3rem;
 }
 
 .input-field:hover {
-    border-color: black;
+    border: 3px solid #edda1c;
 }
 
-.chkbox {
+.checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    border: 2px solid #edda1c;
+    border-radius: 5px;
+    height: 3rem;
+    padding: ;
+    width: 3rem;
+}
+
+.checkbox-text {
     margin-left: 2rem;
 }
 
-.chkbox-text {
-    background-color: salmon;
-    margin-left: 2rem;
-    line-height: 4rem;
-    display: block;
-    position: relative;
+.checkbox:hover {
+    border: 3px solid #edda1c;
+}
+
+
+#signup-form-notice {
+    margin: 4rem 2.5rem 1rem 2.5rem;
 }
 
 .submit-button {
     background-color: green;
-    border: 3px solid #edda1c;
-    border-radius: 2px;
-    padding: 20px;
+    border: 2px solid #edda1c;
+    border-radius: 5px;
+    color: #edda1c;
+    font-size: large;
+    padding: 15px;
+    letter-spacing: 1px;
     margin: 20rem 0 2.5rem 2.5rem;
-    max-width: 18rem;
+    width: 20rem;
+    /* vertical-align: bottom; */
 }
 
 .submit-button:hover {
     background-color: #edda1c;
-
+    border-color: green;
+    color: green;
 }

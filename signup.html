@@ -31,10 +31,14 @@
             <label for="lname">Last Name</label>
             <input id="lname" class="input-field" type="text"  name="last_name" required />
             <label for="email">Email Address</label>
-            <input id="email" class="input-field" type="email" name="email_address" required/>
-            <input id="volunteer" class="chkbox" type="checkbox" name="volunteer"/>
-            <label for="volunteer" class="chkbox-text">Yes, I would like to volunteer!</label>
-            
+            <input id="email" class="input-field" type="email" name="email_address" required />
+            <div class="checkbox-wrapper">
+                <input id="volunteer" class="checkbox" type="checkbox" name="volunteer"/>
+                <label for="volunteer" class="checkbox-text">Yes, I would like to volunteer to help with events</label>
+            </div>
+            <div id="signup-form-notice">
+                <p>By clicking the submit button below, you will be signed up for our newsletter mailing list.  If you have offered to volunteer, one of our event organisers will be in soon.</p>
+            </div>
             <input class="submit-button"  type="submit" value="Let's Offroad!"/>
         </form>
     </section>
