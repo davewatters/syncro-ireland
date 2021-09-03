@@ -16,7 +16,9 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
+    margin: 0 0 7rem; /* footer height */
     min-height: 100vh;
+    position: relative;
 }
 
 h1, h2 {
@@ -115,11 +117,16 @@ header {
 */
 #footer {
     background-color: #344d2c;
+    bottom: 0;
     color: #eef4f4;
     display: flex;
+    flex: 1;
     height: 7rem;
     justify-content: space-between;
+    left: 0;
     padding: 10px;
+    position: absolute;
+    width: 100%;
 }
 
 #copyright {
@@ -148,4 +155,72 @@ header {
 
 #social-links a:hover {
     color: #edda1c;
+}
+
+/* 
+* Signup Page
+*/
+
+#signup-img-section {
+    background: url('../images/course-marshalled.jpg'); 
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-size: cover;
+    flex: 1;
+    width: 100%;
+}
+
+#signup-form {
+    background-color: rgba(238, 244, 244, 0.7);
+    border: 3px solid #edda1c;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    /* height: 50rem; */
+    max-width: 50rem;
+    margin: 3%;
+}
+#signup-form h2 {
+    padding: 20px;
+}
+
+#signup-form input, label {
+    margin-left: 2rem;
+    max-width: 40rem;
+}
+
+.input-field {
+    height: 3rem;
+    border: 1px solid #edda1c;
+    border-radius: 2px;
+}
+
+.input-field:hover {
+    border-color: black;
+}
+
+.chkbox {
+    margin-left: 2rem;
+}
+
+.chkbox-text {
+    background-color: salmon;
+    margin-left: 2rem;
+    line-height: 4rem;
+    display: block;
+    position: relative;
+}
+
+.submit-button {
+    background-color: green;
+    border: 3px solid #edda1c;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20rem 0 2.5rem 2.5rem;
+    max-width: 18rem;
+}
+
+.submit-button:hover {
+    background-color: #edda1c;
+
 }
