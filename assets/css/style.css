@@ -130,15 +130,30 @@ header {
 .content-text {
     background-color: lightgrey;
     padding: 2rem;
-    width: 30%;
+    width: 45%;
 }
 
-.content-img-sidebar {
-    background-color: paleturquoise;
-    padding: 2rem;
-    width: 60%;
+/* 
+    Embedded iframe for YouTube video link
+    for 16:9 aspect ratio padding 56.25%
+    for 4:3 aspect ratio padding is 75%
+*/
+/* 
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-
+*/
+.video-wrapper {
+    background: url('../images/sycro-nose-in-mud-img_1921.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+}
 
 /**
 * Footer
