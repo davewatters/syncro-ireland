@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 }
 
 html {
+    /* Set root font-size to 10px so that rem unit calcs are easier  */
     font-size: 10px;
 }
 
@@ -14,14 +17,15 @@ body {
     color: #344d2c;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 1.6rem;
     margin: 0 0 7rem; /* footer height */
     min-height: 100vh;
     position: relative;
 }
 
-h1, h2 {
+h1 {
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -114,6 +118,7 @@ header {
     flex: 1;
     margin: auto, 0;
     padding: 2rem;
+    transition: 2s ease-in-out;
 }
 
 .content-text {
@@ -137,12 +142,11 @@ header {
     bottom: 0;
     color: #eef4f4;
     display: flex;
-    flex: 1;
     height: 7rem;
     justify-content: space-between;
+    align-items: center;
     left: 0;
     padding: 10px;
-    position: absolute;
     width: 100%;
 }
 
@@ -194,11 +198,11 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 50rem;
-    margin: 3% 0 0 10%;
+    margin: 2% 0 2% 10%;
 }
 #signup-form h2 {
     padding: 20px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #signup-form input, label {
