@@ -17,7 +17,7 @@ You can view the live site [here](https://github.com/davewatters/syncro-ireland)
   * [Structure](#Structure)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
-    * [Typography](#Typography)
+    * [Typography](#typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
     * [Differences to Design](Differences-to-Design)
@@ -96,8 +96,7 @@ The site was built to become the main focal point of an annual Irish event for V
 
 
     -   #### Typography
-    <!-- choice not yet finalised. Will probably use Raleway as the 'W' bears some resemblance to the W in VW -->
-        - Rambla, Montserrat, Raleway, Droid ??
+        -  The Google font, Raleway, was chosen as it's unique 'W' bears some resemblance to the W in the iconic VW logo. 
 
 *   ### Wireframes
 
