@@ -286,3 +286,39 @@ header {
     border-color: #344d2c;
     color: #344d2c;
 }
+
+
+
+/* 
+*   Media queries
+*/
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+
+    #header {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+    #main-section {
+        flex-direction: column;
+        margin: 0, auto;
+        justify-content: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+}
