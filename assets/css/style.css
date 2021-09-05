@@ -19,9 +19,7 @@ body {
     flex-direction: column;
     font-family: Raleway, sans-serif;
     font-size: 1.6rem;
-    margin: 0 0 7rem; /* footer height */
     min-height: 100vh;
-    position: relative;
 }
 
 h1 {
@@ -45,46 +43,57 @@ li {
     font-weight: bold;
 }
 
-/** 
+/* 
 * Header, logo & navbar
 */
 header {
-    align-items: center;
     background-color: #344d2c;
     color: #eef4f4;
-    display: flex;
-    height: 7.5rem;
-    justify-content: space-between;
+    min-height: 7.5rem;
+    left: 0;
+    width: 100%;
 }
 
-#logo {
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 400px;
+    padding: 10px;
+}
+
+.logo > h1 {
     color: #eef4f4;
     margin: auto;
-    padding: 20px;
 }
 
-#navbar {
+#menu {
     margin: auto, 0;
     padding: 20px;
     width: 400px;
 }
 
-#navbar > ul {
+#menu > ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-#navbar > ul > li {
+#menu > ul > li {
     align-items: center;
     text-align: center;
     width: 80px;
 }
 
-#navbar a {
+#menu a {
     color: inherit;
 }
 
-#navbar a:hover {
+#menu a:hover {
     border-bottom: 3px solid #edda1c;
     color: #edda1c;
 }
@@ -93,13 +102,11 @@ header {
     border-bottom: 3px solid #edda1c;
 }
 
-/** 
+/* 
 * Hero image section
 */
 #hero-section {
-    height: 60vh;
     width: 100%;
-    position: relative;
 }
 
 #hero-image {
@@ -110,7 +117,6 @@ header {
         will have to revisit this later to improve
     */
     background-position: center;
-    background-position-y: -190px;
     background-size: cover;
     height: 60vh;
     width: 100%;
@@ -121,15 +127,22 @@ header {
 */
 #main-section {
     display: flex;
-    flex: 1;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 0, auto;
-    padding: 2rem;
+    margin: 0;
 }
 
 .content-text {
     background-color: lightgrey;
-    padding: 2rem;
+    padding: 1rem;
+    width: 45%;
+}
+
+.image-wrapper {
+    background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 45%;
 }
 
@@ -147,36 +160,30 @@ header {
     height: 100%;
 }
 */
-.video-wrapper {
-    background: url('../images/sycro-nose-in-mud-img_1921.jpg'); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 45%;
-}
 
-/**
+/*
 * Footer
 */
 #footer {
+    align-items: center;
     background-color: #344d2c;
     bottom: 0;
     color: #eef4f4;
     display: flex;
     height: 7rem;
     justify-content: space-between;
-    align-items: center;
     left: 0;
     padding: 10px;
     width: 100%;
 }
 
 #copyright {
-    width: 400px;
-    line-height: 3rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 3rem;
     padding: 20px;
+    width: 400px;
 }
 
 #social-links > ul {
@@ -287,10 +294,8 @@ header {
     color: #344d2c;
 }
 
-
-
 /* 
-*   Media queries
+*   Media queries for responsive design
 */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -303,22 +308,48 @@ header {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-
-    #header {
+    .navbar {
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         height: auto;
-        justify-content: center;
     }
 
+    .logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+    #menu {
+        padding: 10px 0;
+    }
+    
     #main-section {
         flex-direction: column;
-        margin: 0, auto;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
     }
 
-    #footer {
-        flex-direction: column;
-        height: auto;
-        justify-content: center;
+    .content-text {
+        width: 90%;
     }
+
+    .image-wrapper {
+        width: 90%;
+    }
+  
+    #footer {
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    #copyright {
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+/* For small screen sizes 450px and down */
+@media screen and (max-width: 450px) {
 }
