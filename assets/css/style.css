@@ -115,6 +115,7 @@ header {
 
 #hero-image {
     background: url('../images/vw-mountains-4x4.jpeg'); 
+    /* background: url('../images/itsa-dogs-life.jpg');  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,7 +166,7 @@ for 4:3 aspect ratio padding-bttom: 75%
     width: 45%;
 }
 
-.video-wrapper iframe {
+.video-wrapper.iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -173,20 +174,30 @@ for 4:3 aspect ratio padding-bttom: 75%
     /* height: 100%; */
 }
 
-.image-wrapper {
+.image-aside {
+    background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+
+}
+
+/* .image-wrapper {
     margin: 1rem;
     position: relative;
     width: 45%;
-    height: 20rem;
+    max-height: 10rem;
 }
 
-.image-wrapper img { 
+.image-wrapper.img { 
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+} */
 
 .sticky-note {
     background-color: #ffff99;
