@@ -6,7 +6,6 @@ Notes
 3. folder 'tmp/' added to .gitignore
 
 
-
 <!-- Useful Links -->
 Go directly to the [Snag List](#snag-list)
 
@@ -21,8 +20,13 @@ Might use for About paragraph
 
 Irelands only VW Syncro 4x4 event! The event consists of not one but two-weekend camping and 4x4 events allowing you time in between to explore Ireland
 
-Eire Syncro was the first ever Syncro event ever held in Ireland. This event was attended by the French Syncro Club and also Club 8090 Syncronauts of which the organisers of Eire Syncro were also members. From what we know there are approximately 16-20 Syncros in total in the whole of Ireland so it was quite amazing to have our ranks swelled to approximately 30 Syncros with our French and English fellow Syncronauts and some members from the Irish VW clubs. The event was held over two weekends the first part on the East by the Second on the West which gave all who attended a week to go exploring in between. We would very much like to repeat this event and this page is to advertise and promote it so we can do this again please enjoy all the amazing photos and videos that were taken by the participants and there are some of my own and please feel free to comment and share. Many 
-thanks, Paul
+Eire Syncro was the first ever Syncro event ever held in Ireland. 
+This event was attended by the French Syncro Club and also Club 8090 Syncronauts 
+of which the organisers of Eire Syncro were also members. 
+From what we know there are approximately 16-20 Syncros in total in the whole of Ireland so it was quite amazing to have our ranks swelled to approximately 30 Syncros with our French and English fellow Syncronauts and some members from the Irish VW clubs. 
+The event was held over two weekends the first part on the East by the Second on the West which gave all who attended a week to go exploring in between. 
+We would very much like to repeat this event and this page is to advertise and promote it so we can do this again please enjoy all the amazing photos and videos that were taken by the participants and there are some of my own and please feel free to comment and share. 
+Many thanks, Paul
 
 
 
@@ -58,7 +62,7 @@ Post-It note colour: Pale Canary, #FFFF99, (255, 255, 153)
 - [ ] hero image slider main screen, maybe 4 van images
 - [ ] sticky footer??
 - [ ] gallery page
-- [ ] 
+- [ ] add some FA icons like a van or cog/gear?
 
 <!-- Snag List -->
 ## Snag List

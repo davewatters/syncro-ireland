@@ -27,6 +27,10 @@ h1 {
     text-transform: uppercase;
 }
 
+body h2 {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -112,10 +116,6 @@ header {
 #hero-image {
     background: url('../images/vw-mountains-4x4.jpeg'); 
     background-repeat: no-repeat;
-    /* 
-        not happy with way image is not balanced in viewport after resizing
-        will have to revisit this later to improve
-    */
     background-position: center;
     background-size: cover;
     height: 60vh;
@@ -123,7 +123,7 @@ header {
 }
 
 /*
-* Main content section
+* Main content styling
 */
 
 .section-flex-wrapper {
@@ -132,12 +132,20 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 10px 0;
+    /* min-height: 30rem; */
+}
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
 }
 
 .content-text {
     background-color: #f4f1d6;
     padding: 1rem;
     width: 45%;
+    text-align: center;
 }
 
 /* 
@@ -161,17 +169,19 @@ header {
 
 .hr-style {
     color: #344d2c;
-    border: 2px;
-
+    border: 1px solid;
+    margin: auto;
+    width: 50%;
 }
 
-/* .image-wrapper {
+.image-box {
     background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
     width: 45%;
-} */
+}
 
 /*
 * Footer
@@ -270,7 +280,6 @@ header {
 .checkbox {
     border-radius: 5px;
     height: 3rem;
-    padding: ;
     width: 3rem;
 }
 
@@ -351,7 +360,7 @@ header {
         height: 0;
         /* for 4:3 aspect ratio padding-bttom: 75% */
         padding-bottom: 75%;
-    
+
     }
   
     #footer {
