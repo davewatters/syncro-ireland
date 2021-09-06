@@ -125,33 +125,32 @@ header {
 /*
 * Main content section
 */
-#main-section {
+
+.section-flex-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0;
+    flex-wrap: wrap;
+    margin: 10px 0;
 }
 
 .content-text {
-    background-color: lightgrey;
+    background-color: #f4f1d6;
     padding: 1rem;
-    width: 45%;
-}
-
-.image-wrapper {
-    background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 45%;
 }
 
 /* 
     Embedded iframe for YouTube video link
-    for 16:9 aspect ratio padding 56.25%
-    for 4:3 aspect ratio padding is 75%
+    for 16:9 aspect ratio padding-bottom: 56.25%
+    for 4:3 aspect ratio padding-bttom: 75%
 */
-/* 
+.video-wrapper {
+    margin: 1rem;
+    position: relative;
+    width: 45%;
+}
+
 .video-wrapper iframe {
     position: absolute;
     top: 0;
@@ -159,7 +158,14 @@ header {
     width: 100%;
     height: 100%;
 }
-*/
+
+/* .image-wrapper {
+    background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+} */
 
 /*
 * Footer
@@ -323,7 +329,7 @@ header {
         padding: 10px 0;
     }
     
-    #main-section {
+    .section-flex-wrapper {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -334,8 +340,12 @@ header {
         width: 90%;
     }
 
-    .image-wrapper {
+    .video-wrapper {
         width: 90%;
+        height: 0;
+        /* for 4:3 aspect ratio padding-bttom: 75% */
+        padding-bottom: 75%;
+    
     }
   
     #footer {
