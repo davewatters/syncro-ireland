@@ -159,6 +159,12 @@ header {
     height: 100%;
 }
 
+.hr-style {
+    color: #344d2c;
+    border: 2px;
+
+}
+
 /* .image-wrapper {
     background: url('../images/syncro-nose-in-mud-img_1921.jpg'); 
     background-repeat: no-repeat;
