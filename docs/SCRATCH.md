@@ -49,12 +49,13 @@ Footer Green
 Content text: Green on White; White on Green
 Hghlights - Active/Selected/Borders: Gold/Yellow,   VW Brilliant Yellow:    #edda1c
 
+Post-It note colour: Pale Canary, #FFFF99, (255, 255, 153)
+
 Other suggestions:
 VW Bamboo Yellow:       #d78e34     No. too orangey?
 VW Pastel White:        #f4f1d6     *maybe  rgb: (244, 241, 214)
 Chrysler Arctic White:  #f6f7f4     *maybe. slightly better AAA 8.7
 Misc:
-Post-It note colour: Pale Canary, #FFFF99, (255, 255, 153)
 
 
 <!-- Wish List -->
