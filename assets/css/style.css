@@ -22,11 +22,6 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
 body h2 {
     width: 100%;
 }
@@ -67,17 +62,19 @@ header {
 }
 
 .logo {
-    width: 400px;
-    padding: 10px;
-}
-
-.logo > h1 {
     color: #eef4f4;
+    font-size: 2em;
+    font-weight: bolder;
     margin: auto;
+    width: 400px;
+    padding: 10px;    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #menu {
-    margin: auto, 0;
+    margin: auto 0;
     padding: 20px;
     width: 400px;
 }
@@ -181,6 +178,7 @@ header {
 
 .image-wrapper iframe { 
     position: absolute;
+    border: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -248,14 +246,14 @@ for 4:3 aspect ratio padding-bttom: 75%
     justify-content: flex-start;
     line-height: 3rem;
     padding: 20px;
-    width: 400px;
+    max-width: 320px;
 }
 
 #social-links > ul {
     display: flex;
     justify-content: space-evenly;
-    margin: auto, 0;
-    width: 400px;
+    margin: auto 0;
+    width: 320px;
 }
 
 #social-links {
@@ -363,14 +361,6 @@ for 4:3 aspect ratio padding-bttom: 75%
 *   Media queries for responsive design
 */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-}
-
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-}
-
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
     .navbar {
@@ -382,10 +372,12 @@ for 4:3 aspect ratio padding-bttom: 75%
 
     .logo {
         text-align: center;
+        width: 320px;
         padding: 10px 0;
     }
     #menu {
         padding: 10px 0;
+        width: 320px;
     }
     
     .section-flex-wrapper {
@@ -422,16 +414,6 @@ for 4:3 aspect ratio padding-bttom: 75%
     #copyright {
         justify-content: center;
         padding: 10px;
+        width: 400px;
     }
-}
-
-
-@media screen and (max-width: 500px) {
-    #signup-form {
-        margin: 2%;
-    }
-}
-
-/* For small screen sizes 450px and down */
-@media screen and (max-width: 450px) {
 }

@@ -118,7 +118,7 @@ The site was built to become the main focal point of an annual Irish event for V
 ## - Testing -
 
 -  ### Code Validation
-    The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. All validation was re-run after fixing the errors shown below to ensure that no errors or warnings were reported.
+    The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. All validation was re-run after fixing the errors shown below to ensure that no futher errors or warnings existed.
 
     -   index.html Warning: errant `<section>` was replaced with a `<div>` as `hero-section` is for decoration only and has no semantic use
     <h2 align="center"><img src="docs/w3c-validator-html-index.png"></h2>
@@ -155,6 +155,7 @@ The site was built to become the main focal point of an annual Irish event for V
 
 - ### Bugs
 
+    -   Original supplied videos wouldn't play when embeded due to there being copyrighted music on the sondtrack
     -   In the Signup Form (signup.html) user can't tab from the last text field to the checkbox field
     -   footer slightly off-centre on screens below 320px
 
