@@ -3,51 +3,28 @@
 ## The Home of Ireland's Annual VW Syncro 4x4 Event
 Syncro Ireland was built to become the main focal point of an annual Irish event for VW Syncro enthusiasts. The site aims to promote and encourage engagement from the community across the island of Ireland, the UK, and international visitors.  The organiser's goal is to encourge enthusiasts to sign up to receive news regarding Syncro (and other 4x4) events, and to build a cohort of volunteers to ensure the event's continued success.
 
-You can view the Syncro Ireland live site [here.](https://github.com/davewatters/syncro-ireland)
+You can view the Syncro Ireland live site [HERE.](https://davewatters.github.io/syncro-ireland)
 <br />
 <br />
 
 <!-- Responsive desgin sample image from http://ami.responsivedesign.is/ -->
 <h2 align="center"><img src="docs/ci-pp1-syncro-ireland-responsive-mockup.png"></h2>
 
-## Table of Contents
+## - Table of Contents -
 * [Purpose](#purpose)
 * [User Experience Design (UX)](#user-experience-design)
-  * [User Stories](#user-stories)
-  * [Structure](#structure)
-  * [Design](#design)
-    * [Colour Scheme](#colour-scheme)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-    * [Wireframes](#wireframes)
-    * [Differences to Design](differences-to-design)
-* [Limitations](#limitations)
-- [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Future Features](#features-left-to-implement)
+* [Features](#features)
 * [Technologies](#technologies)
 * [Testing](#testing)
-    * [Test Strategy](#test-strategy)
-      * [Summary](#summary)
-      * [High Level Test Cases](#high-level-test-cases)
-      * [Out of Scope](#out-of-scope)
-    * [Test Results](#test-results)
-    * [Testing Issues](#issues-and-resolutions-to-issues-found-during-testing)
 * [Deployment](#deployment)
-    * [Project Creation](#project-creation)
-    * [GitHub Pages](#using-github-pages)
-    * [Locally](run-locally)
 * [Credits](#credits)
-  * [Content](#content)
-  * [Acknowledgements](#acknowledgements)
-  * [Comments](#comments)
 
-## Purpose
+## - Purpose -
 [ This website was created as the first Portfolio Project (PP1) for the Code Institute's Full Stack Web Development course. ]
 
 The site was built to become the main focal point of an annual Irish event for VW Syncro enthusiasts. The target audience are mostly VW Syncro owners, but extends to all other 4x4, off-roading and camper van enthusists. The organisers had been using various other media (Facebook; online club forum) to get information out to the channel, with mixed success. They realised that there was no single online destination to find out about events in Ireland and connect all interested parties. This made it difficult to build momentum for an event idea. It was realised that a registration portal was needed to inform those interested in attending, and, in fact, a register of volunteers was needed to help make the event happen.  This site aims to fulfill those needs for both the organisers and attendees.
 
-## User Experience (UX)
+## - User Experience Design -
 
 -   ### User stories
 
@@ -62,18 +39,20 @@ The site was built to become the main focal point of an annual Irish event for V
 
     -   ### Design Scope to Deliver MVP
         -   #### First Time Visitor Goals
-
+            As a first time user...
             1. I want to easily understand the main purpose of the site and learn more about the organisation
             1. I want to be able to easily navigate throughout the site to find content
             1. I want to find their social media links to follow event news
 
         -   #### Returning Visitor Goals
-
+            As a returning visitor...
             1. I want to be able to easily register my interest in attending an event
             1. I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
             1. I want to find community links
 
         -   #### Frequent User Goals
+            As a frequent user...
+
             1. I want to to see if there are any new events happening
             1. I want to to see if there are any updates on a forthcoming event
             1. I want to see any new photos or videos of previous events or realted acitivites
@@ -106,13 +85,13 @@ The site was built to become the main focal point of an annual Irish event for V
 
     -   ~~Signup Page Wireframe - [View](https://github.com/)~~
 
-## Features
+## - Features -
 
 -   Responsive on all device sizes
 
 -   ??? Interactive elements  ????
 
-## Technologies Used
+## - Technologies Used -
 
 ### Languages Used
 
@@ -136,46 +115,57 @@ The site was built to become the main focal point of an annual Irish event for V
 1. ~~[Balsamiq:](https://balsamiq.com/)~~
     ~~- Balsamiq was used to create the [wireframes](https://github.com/) during the design process.~~
 
-## Testing
+## - Testing -
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+-  ### Code Validation
+    The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. All validation was re-run after fixing the errors shown below to ensure that no errors or warnings were reported.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+    -   index.html Warning: errant `<section>` was replaced with a `<div>` as `hero-section` is for decoration only and has no semantic use
+    <h2 align="center"><img src="docs/w3c-validator-html-index.png"></h2>
 
-### Testing User Stories from User Experience (UX) Section
+    -   events.html Error: embeded video link code was actually generated by YouTube, but I removed the attribute to fix this
+    <h2 align="center"><img src="docs/w3c-validator-html-events.png"></h2>
 
-<!-- How were the User Story goals achieved? -->
--   #### First Time Visitor Goals
+    -   signup.html Error: stray tag was deleted
+    <h2 align="center"><img src="docs/w3c-validator-html-signup.png"></h2>
 
--   #### Returning Visitor Goals
+    -   style.css: two stray commas were found and deleted
+    <h2 align="center"><img src="docs/w3c-validator-css-style.png"></h2>
 
--   #### Frequent User Goals
+-   ### User Stories
+    Testing User Stories from User Experience (UX) Section
+    <!-- How were the User Story goals achieved? -->
+    -   #### First Time Visitor Goals
 
+    -   #### Returning Visitor Goals
 
-### Further Testing
+    -   #### Frequent User Goals
 
--   The colour scheme was tested using this [Contrast Grid Test](https://contrast-grid.eightshapes.com)
-    and the results shown here
-<h2 align="center"><img src="docs/contrast-grid.png"></h2>
+-   ### Responsiveness
+    - Chrome DevTools and a Chrome extension, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB), were used to check responsiveness on various device sizes. Some issues were found at the 320px screen size where the logo and footer elements were breaking the screen width (as shown in the image below). I could see in DevTools that they had `width: 400px` set, and changing to `max-width: 400px` would fix the issue. The code was fixed accordingly.
+    <h2 align="center"><img src="docs/testing-responsive-320.png"></h2>
+-   ### Colour Scheme
+    -   The colour scheme was tested using this [Contrast Grid Test](https://contrast-grid.eightshapes.com)
+        and, as explained previously in the Design - [Colour Scheme](#colour-scheme) section, my decision was based on the results shown here:
+    <h2 align="center"><img src="docs/contrast-grid.png"></h2>
 
--   The Website was tested on Firefox, Safari, Chrome, and browsers.
--   The website was viewed on a variety of mobile devices such as iPhone7, iPhone 8 & iPhoneX.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    -   The Website was tested on Firefox, Safari, Chrome and Edge browsers.
+    -   The website was viewed on a variety of mobile devices such as iPhone7, iPhone 8 & iPhoneX.
+    -   The organiser of Syncro Ireland Events was asked review the site to point out any user experience issues
 
-### Known Bugs
+- ### Bugs
 
--   In the Signup Form (signup.html) user can't tab from the last text field to the checkbox field
+    -   In the Signup Form (signup.html) user can't tab from the last text field to the checkbox field
+    -   footer slightly off-centre on screens below 320px
 
-
-## Deployment
+## - Deployment -
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages [here](https://davewatters.github.io/syncro-ireland)
+The project was deployed to GitHub Pages [HERE](https://davewatters.github.io/syncro-ireland)
 
 
-## Credits
+## - Credits -
 
 ### Code
 
@@ -189,9 +179,7 @@ The project was deployed to GitHub Pages [here](https://davewatters.github.io/sy
 
 ### Acknowledgements
 
--   My mentor Daisy Mc Girr for continuous helpful feedback.
-
--   ~~Tutor support at Code Institute for their support.~~
-
--   And finally... Thanks to @Stephen_5p for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
+-   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback.  And for introducing me to the illuminating Chrome extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)!
+-   The wonderful Code Institute community on Slack - the CI staff and students,  both noobs and seasoned devs alike - for all of their help and support. 
+-   And finally... Thanks to fellow student @Stephen_5P for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
 
