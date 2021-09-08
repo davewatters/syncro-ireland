@@ -105,7 +105,7 @@ The site was built to become the main focal point of an annual Irish event for V
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from Git, and Github Pages used to deploy the live site
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google font 'Raleway' was imported in the style.css file and used to throughout the site.
+    - Google font 'Raleway' was imported in the style.css file and used throughout the site.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add icons for aesthetic and UX purposes.
 1. [Gimp:](https://www.gimp.org/)
@@ -142,7 +142,7 @@ The site was built to become the main focal point of an annual Irish event for V
     -   #### Frequent User Goals
 
 -   ### Responsiveness
-    - Chrome DevTools and a Chrome extension, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB), were used to check responsiveness on various device sizes. Some issues were found at the 320px screen size where the logo and footer elements were breaking the screen width (as shown in the image below). I could see in DevTools that they had `width: 400px` set, and changing to `max-width: 400px` would fix the issue. The code was fixed accordingly.
+    - Chrome DevTools and a Chrome extension, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB), were used to check responsiveness on various device sizes. Some issues were found at the 320px screen size where the logo and footer elements were breaking the screen width (as shown in the image below). I could see in DevTools that they had `width: 400px` set, and changing the media query for 800px or smaller screens to `width: 320px` would fix the issue. The code was fixed accordingly.
     <h2 align="center"><img src="docs/testing-responsive-320.png"></h2>
 -   ### Colour Scheme
     -   The colour scheme was tested using this [Contrast Grid Test](https://contrast-grid.eightshapes.com)
@@ -157,7 +157,7 @@ The site was built to become the main focal point of an annual Irish event for V
 
     -   Original supplied videos wouldn't play when embeded due to there being copyrighted music on the sondtrack
     -   In the Signup Form (signup.html) user can't tab from the last text field to the checkbox field
-    -   footer slightly off-centre on screens below 320px
+    -   ~~footer slightly off-centre on screens below 320px~~ Fixed with media query edit
 
 ## - Deployment -
 
@@ -181,6 +181,6 @@ The project was deployed to GitHub Pages [HERE](https://davewatters.github.io/sy
 ### Acknowledgements
 
 -   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback.  And for introducing me to the illuminating Chrome extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)!
--   The wonderful Code Institute community on Slack - the CI staff and students,  both noobs and seasoned devs alike - for all of their help and support. 
+-   The wonderful Code Institute community on Slack and the CI staff and students - both noobs and seasoned devs alike - for all of their help and support. 
 -   And finally... Thanks to fellow student @Stephen_5P for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
 
