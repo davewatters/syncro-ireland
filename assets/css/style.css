@@ -414,6 +414,12 @@ for 4:3 aspect ratio padding-bttom: 75%
     #copyright {
         justify-content: center;
         padding: 10px;
-        width: 400px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #signup-form {
+        margin: 2%;
     }
 }
