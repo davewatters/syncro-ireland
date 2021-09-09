@@ -143,6 +143,10 @@ header {
     margin: 10px auto;
 }
 
+#prev-events {
+    font-size: 3.2rem;
+}
+
 .content-wrapper {
     /* background-color: #f4f1d6; */
     display: flex;
@@ -281,7 +285,7 @@ header {
     max-width: 50rem;
     margin: 2% 0 2% 10%;
 }
-#signup-form h2 {
+#signup-form h1 {
     padding: 20px;
     letter-spacing: 2px;
 }

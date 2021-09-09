@@ -183,6 +183,8 @@ The site was built to become the main focal point of an annual Irish event for V
     -   The website was viewed on a variety of mobile devices such as iPhone7, iPhone 8 & iPhoneX.
     -   The organiser of Syncro Ireland Events was asked review the site to point out any user experience issues
 
+-   ### Form data validation
+
 - ### Bugs
 
     -   Original supplied videos wouldn't play when embeded due to there being copyrighted music on the sondtrack
