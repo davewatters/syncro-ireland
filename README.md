@@ -30,6 +30,7 @@ The site was built to become the main focal point of an annual Irish event for V
 
     -   ### Design Strategy Goals
         1. Create an online presence to promote the annual Irish event
+        - 
         1. Site must inform vistors about future and past events
         1. Create a registration form to:
             - capture contact details of those interested in receiving event news
@@ -55,19 +56,19 @@ The site was built to become the main focal point of an annual Irish event for V
 
             -  I want to to see if there are any new events happening
             -  I want to to see if there are any updates on a forthcoming event
-            -  I want to see any new photos or videos of previous events or realted acitivites
+            -  I want to see any new photos or videos of previous events or related acitivites
 
 -   ### Design
     -   #### Layout
-        A simple 3/4/5 page structure was discussed to satisfy and separate the strategy goals of promote, inform & capture/register, and also allow for expansion for other pages - for example, a gallery page of images of events, event attendees, their vans etc., and possibly a page dedicated to the history of the VW Syncro van. For the purposes of delivering an MVP to a tight deadline, the three page structure was decided upon to ensure it was feasible to deliver the important design strategy goals.  
+        A simple 3-5 page structure was discussed to satisfy and separate the strategy goals of promote, inform & register, and also allow for expansion to other pages - for example, a gallery page of images of events/attendees/vans etc., and possibly a page dedicated to the history of the VW Syncro van. For the purposes of delivering an MVP to a tight deadline, the three-page structure was decided upon to ensure it was feasible to deliver the important design strategy goals.  
         The site must appeal to a Syncro/4x4 enthusiast and present the information in a clear, accessible and obvious way whether on mobile devices or larger screens. To achieve this, page navigation links are laid out the same at the top of each page, as are links to relevant social media platforms on the bottom of each page.  
-        The main page is brief and introductory, with all navigation links visible. The registration form link is presented as 'Sign Up!' - this is an obvious call-to-action.  
-        The events page clearly presents upcoming & past event news which remains in the correct order when the layout changes in response to various screen sizes. It also includes any important event announcements (e.g. request for volunteers), presented as a mock Post-It note, to highlist the message and the call-to-action.  
-        The registration form page presents a simple form for required user contact details with a choice to enter a comment or question, check a box to volunteer and a clear submit button.  
-        All links & buttons use high contrast colours on hover or click and when in a form data field to provide clear visual feedback to the user when an action is taken.  All pages use images of Syncro vans at events or in off-road locations which appeal to the target audience of the site.  
+        The main page is brief and introductory with all navigation links visible. The registration form link is presented as 'Sign Up!' - this is an obvious call-to-action.  
+        The events page clearly presents upcoming & past event news items which remain in the correct order when the layout changes in response to various screen sizes. It also includes any important event announcements (e.g. request for volunteers), presented as a mock Post-It note, to highlight the message and the call-to-action.  
+        The registration form page presents a simple form for required user contact details with a choice to enter a comment or question, a check a box to volunteer, and a submit button.  
+        Throughout the site all links & buttons use high contrast colours on hover or click, or when in a form data field, to provide clear visual feedback to the user when an action is taken.  All pages use images of Syncro vans at events, or in off-road locations, which appeal to the target audience and are likely to elicit a positive emotional response.  
 
     -   #### Colour Scheme
-        To highight the 'Irishness' of the site a green/white/gold (the colours of the Irish flag) variation was used throughout the site. I chose to base these colours on actual official VW paint colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. The choice for the background was between an off-white VW Pastel White, Ford Polar and a Chrysler Arctic White, all of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour contrast testing are included in the [Testing](#testing) section below.
+        To highight the Irish identity of the site, a green/white/gold variation was used throughout the site. I chose to base these colours on actual official VW paint colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. The choice for the background was between an off-white VW Pastel White, Ford Polar and a Chrysler Arctic White, all of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour contrast testing are included in the [Testing](#testing) section below.
 
         - Colour choices
             - Ford Polar White, #eef4f4
@@ -79,7 +80,7 @@ The site was built to become the main focal point of an annual Irish event for V
             - Header: Green 
             - Footer: Green
             - Content text: Green on White or White on Green, as applicable
-            - Hghlights (Active/Selected/Border): Yellow
+            - Highlights (Active/Selected/Border): Yellow
 
 
     -   #### Typography

@@ -29,13 +29,15 @@
         <form id="signup-form" action="https://formdump.codeinstitute.net/" method="POST">
             <h2>Sign Me Up!</h2>
             <label for="fname">First Name</label>
-            <input id="fname" class="input-field" type="text" name="first_name" required />
+            <input id="fname" class="input-field" type="text" name="first_name" required/>
             <label for="lname">Last Name</label>
-            <input id="lname" class="input-field" type="text"  name="last_name" required />
+            <input id="lname" class="input-field" type="text"  name="last_name" required/>
             <label for="email">Email Address</label>
-            <input id="email" class="input-field" type="email" name="email_address" required />
+            <input id="email" class="input-field" type="email" name="email_address" required/>
+            <label for="feedback">Ask us a question or tell us what you think...</label>
+            <textarea name="feedback" placeholder="We welcome your questions and suggestions" id="feedback"></textarea>
             <div class="checkbox-wrapper">
-                <input id="volunteer" class="checkbox" type="checkbox" name="volunteer"/>
+                <input id="volunteer" class="input-field" type="checkbox" name="volunteer" value="yes"/>
                 <label for="volunteer" class="checkbox-text">Yes, I would like to volunteer to help with events</label>
             </div>
             <div id="signup-form-notice">
@@ -64,7 +66,7 @@
                 <li><a href="https://instagram.com" target="_blank" rel="noopener"
                     aria-label="Syncro Ireland Instagram page (opens in new tab)">
                     <i class="fab fa-instagram"></i></a>
-                <li>
+                </li>
             </ul>
         </div>
     </footer>

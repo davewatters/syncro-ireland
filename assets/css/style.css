@@ -99,6 +99,11 @@ header {
     color: #edda1c;
 }
 
+#menu a:focus {
+    border-bottom: 3px solid #edda1c;
+    color: #edda1c;
+}
+
 .active {
     border-bottom: 3px solid #edda1c;
 }
@@ -112,7 +117,6 @@ header {
 
 #hero-image {
     background: url('../images/vw-mountains-4x4.jpeg'); 
-    /* background: url('../images/itsa-dogs-life.jpg');  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -122,7 +126,7 @@ header {
 
 /*
 *
-*  Main content styling
+* Main content styling
 *
 */
 .section-flex-wrapper {
@@ -185,17 +189,6 @@ header {
     height: 100%;
 }
 
-.image-aside {
-    background: url('../images/syncro-nose-in-mud-img_1921-2.jpg'); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    /* height: 60vh; */
-    /* width: 100%; */
-
-}
-
 .sticky-note {
     background-color: #ffff99;
     height: 350px;
@@ -204,11 +197,6 @@ header {
     text-align: center;
 }
 
-/* 
-Embedded iframe for YouTube video link
-for 16:9 aspect ratio padding-bottom: 56.25%
-for 4:3 aspect ratio padding-bttom: 75%
-*/
 .video-wrapper {
     margin: 1rem;
     position: relative;
@@ -220,9 +208,7 @@ for 4:3 aspect ratio padding-bttom: 75%
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 100%; */
 }
-
 
 /*
 * Footer
@@ -246,14 +232,14 @@ for 4:3 aspect ratio padding-bttom: 75%
     justify-content: flex-start;
     line-height: 3rem;
     padding: 20px;
-    max-width: 320px;
+    width: 400px;
 }
 
 #social-links > ul {
     display: flex;
     justify-content: space-evenly;
     margin: auto 0;
-    width: 320px;
+    width: 400px;
 }
 
 #social-links {
@@ -269,10 +255,14 @@ for 4:3 aspect ratio padding-bttom: 75%
     color: #edda1c;
 }
 
+#social-links a:focus {
+    color: #edda1c;
+}
+
+
 /* 
 * Signup Page
 */
-
 #signup-img-section {
     background: url('../images/course-marshalled.jpg'); 
     background-repeat: no-repeat;
@@ -296,10 +286,8 @@ for 4:3 aspect ratio padding-bttom: 75%
     letter-spacing: 2px;
 }
 
-#signup-form input, label {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
+#signup-form input, label, textarea {
+    margin: 0.5rem 2rem;
     max-width: 45rem;
 }
 
@@ -311,28 +299,48 @@ for 4:3 aspect ratio padding-bttom: 75%
 }
 
 .input-field:hover {
+    border: 3
+    4px solid #edda1c;
+}
+
+.input-field:focus {
+    border: 3px solid #edda1c;
+}
+
+
+#feedback {
+    background: transparent;
+    border: 1px solid ;
+    border-radius: 2px;
+    min-height: 12rem;
+    resize: none;
+}
+
+#feedback:focus {
     border: 3px solid #edda1c;
 }
 
 .checkbox-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.checkbox {
-    border-radius: 5px;
-    height: 3rem;
+#volunteer { 
     width: 3rem;
 }
 
-.checkbox-text {
-    margin-left: 2rem;
-}
-
-.checkbox:hover {
+#volunteer:focus {
     border: 3px solid #edda1c;
 }
 
+#volunteer:hover {
+    border: 3px solid #edda1c;
+}
+
+.checkbox-text {
+    margin-left: 0;
+}
 
 #signup-form-notice {
     margin: 4rem 2.5rem 1rem 2.5rem;
@@ -348,7 +356,6 @@ for 4:3 aspect ratio padding-bttom: 75%
     letter-spacing: 1px;
     margin: 20rem 0 2.5rem 2.5rem;
     width: 20rem;
-    /* vertical-align: bottom; */
 }
 
 .submit-button:hover {
@@ -357,8 +364,14 @@ for 4:3 aspect ratio padding-bttom: 75%
     color: #344d2c;
 }
 
+.submit-button:focus {
+    background-color: #edda1c;
+    border-color: #344d2c;
+    color: #344d2c;
+}
+
 /* 
-*   Media queries for responsive design
+* Media queries for responsive design
 */
 
 /* For small screen sizes 800px and down */
@@ -371,26 +384,28 @@ for 4:3 aspect ratio padding-bttom: 75%
     }
 
     .logo {
-        text-align: center;
-        width: 320px;
         padding: 10px 0;
     }
     #menu {
         padding: 10px 0;
-        width: 320px;
     }
     
     .section-flex-wrapper {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: auto;
+        /* height: auto; */
     }
 
     .content-wrapper {
         width: 90%;
     }
 
+    /* 
+    Embedded iframe for YouTube video link
+    for 16:9 aspect ratio padding-bottom: 56.25%
+    for 4:3 aspect ratio padding-bttom: 75%
+    */
     .video-wrapper {
         width: 90%;
         height: 0;
@@ -405,6 +420,11 @@ for 4:3 aspect ratio padding-bttom: 75%
         padding-bottom: 75%;
     }
 
+    .sticky-note {
+        width: 90%;
+        padding: 1.2rem;
+    }
+
     #footer {
         flex-direction: column-reverse;
         height: auto;
@@ -414,12 +434,42 @@ for 4:3 aspect ratio padding-bttom: 75%
     #copyright {
         justify-content: center;
         padding: 10px;
-        width: 320px;
+    }
+
+    #social-links > ul {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #signup-form {
+        margin-left: 5%;
     }
 }
 
 @media screen and (max-width: 500px) {
     #signup-form {
         margin: 2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 100%;
+    }
+
+    #menu {
+        width: 100%;
+    }
+    #signup-form {
+        margin: 2%;
+    }
+    
+    #copyright {
+        max-width: 320px;
+    }
+
+    #social-links > ul {
+        max-width: 320px;
     }
 }
