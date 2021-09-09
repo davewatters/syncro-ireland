@@ -40,26 +40,34 @@ The site was built to become the main focal point of an annual Irish event for V
     -   ### Design Scope to Deliver MVP
         -   #### First Time Visitor Goals
             As a first time user...
-            1. I want to easily understand the main purpose of the site and learn more about the organisation
-            1. I want to be able to easily navigate throughout the site to find content
-            1. I want to find their social media links to follow event news
+            - I want to easily understand the main purpose of the site and learn more about the organisation
+            -  I want to be able to easily navigate throughout the site to find content
+            -  I want to find their social media links to follow event news
 
         -   #### Returning Visitor Goals
             As a returning visitor...
-            1. I want to be able to easily register my interest in attending an event
-            1. I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
-            1. I want to find community links
+            -  I want to be able to easily register my interest in attending an event
+            -  I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
+            -  I want to find community links
 
         -   #### Frequent User Goals
             As a frequent user...
 
-            1. I want to to see if there are any new events happening
-            1. I want to to see if there are any updates on a forthcoming event
-            1. I want to see any new photos or videos of previous events or realted acitivites
+            -  I want to to see if there are any new events happening
+            -  I want to to see if there are any updates on a forthcoming event
+            -  I want to see any new photos or videos of previous events or realted acitivites
 
 -   ### Design
+    -   #### Layout
+        A simple 3/4/5 page structure was discussed to satisfy and separate the strategy goals of promote, inform & capture/register, and also allow for expansion for other pages - for example, a gallery page of images of events, event attendees, their vans etc., and possibly a page dedicated to the history of the VW Syncro van. For the purposes of delivering an MVP to a tight deadline, the three page structure was decided upon to ensure it was feasible to deliver the important design strategy goals.  
+        The site must appeal to a Syncro/4x4 enthusiast and present the information in a clear, accessible and obvious way whether on mobile devices or larger screens. To achieve this, page navigation links are laid out the same at the top of each page, as are links to relevant social media platforms on the bottom of each page.  
+        The main page is brief and introductory, with all navigation links visible. The registration form link is presented as 'Sign Up!' - this is an obvious call-to-action.  
+        The events page clearly presents upcoming & past event news which remains in the correct order when the layout changes in response to various screen sizes. It also includes any important event announcements (e.g. request for volunteers), presented as a mock Post-It note, to highlist the message and the call-to-action.  
+        The registration form page presents a simple form for required user contact details with a choice to enter a comment or question, check a box to volunteer and a clear submit button.  
+        All links & buttons use high contrast colours on hover or click and when in a form data field to provide clear visual feedback to the user when an action is taken.  All pages use images of Syncro vans at events or in off-road locations which appeal to the target audience of the site.  
+
     -   #### Colour Scheme
-        To highight the 'Irishness' of the site a green/white/gold variation was used throughout the site. I chose to base these colours on actual official VW colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. The choice for the background was between an off-white VW Pastel White, Ford Polar and a Chrysler Arctic White, all of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour contrast testing are included in the [Testing](#testing) section below.
+        To highight the 'Irishness' of the site a green/white/gold (the colours of the Irish flag) variation was used throughout the site. I chose to base these colours on actual official VW paint colours as used on the Syncro vans (e.g. VW Escorial Green), so this design choice should also feel familiar to the site's users. The choice for the background was between an off-white VW Pastel White, Ford Polar and a Chrysler Arctic White, all of which have 'AAA' WCAG 2.0 contrast scores when used as text on the green background (i.e in the header & footer). The results of the colour contrast testing are included in the [Testing](#testing) section below.
 
         - Colour choices
             - Ford Polar White, #eef4f4
@@ -116,6 +124,27 @@ The site was built to become the main focal point of an annual Irish event for V
     ~~- Balsamiq was used to create the [wireframes](https://github.com/) during the design process.~~
 
 ## - Testing -
+-   ### UX Goals, User Stories
+    -   #### As a first time user...
+        - I want to easily understand the main purpose of the site and learn more about the organisation
+        -  I want to be able to easily navigate throughout the site to find content
+        -  I want to find their social media links to follow event news
+
+    -   #### Returning Visitor Goals
+        As a returning visitor...
+        -  I want to be able to easily register my interest in attending an event
+        -  I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
+        -  I want to find community links
+
+    -   #### Frequent User Goals
+        As a frequent user...
+
+        -  I want to to see if there are any new events happening
+        -  I want to to see if there are any updates on a forthcoming event
+        -  I want to see any new photos or videos of previous events or realted acitivites
+
+
+
 
 -  ### Code Validation
     The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. All validation was re-run after fixing the errors shown below to ensure that no futher errors or warnings existed.
@@ -169,18 +198,18 @@ The project was deployed to GitHub Pages [HERE](https://davewatters.github.io/sy
 ## - Credits -
 
 ### Code
-
-- README.md - The structure was arrived at by examining the Code Institute sample templates and some previous CI users' projects. In particular, the Table of Contents idea came from Daisy McGirr's milestone project [HOTD](https://github.com/Daisy-McG/MilestoneProject-1)
+-   Whilst no major code was 'lifted' from other sources, I looked to many sources for inspiration and help: Code Institute walkthrough projects, other CI users' projects, live web sites, Stackoverflow, CSS Tricks.. and many others. 
+-   README.md - The structure was arrived at by examining the Code Institute sample templates and some previous CI users' projects. In particular, the Table of Contents idea came from Daisy McGirr's milestone project [HOTD](https://github.com/Daisy-McG/MilestoneProject-1)
 
 ### Content
 
 -   All content created by the site creator [David Watters](https://github.com/davewatters/). Whilst some copy was taken, with permission, from the [Eire Syncro Facebook page](https://www.facebook.com/pages/category/Event/Eire-Syncro-261159948060757/) and the [UK Syncro Club](https://club8090.co.uk/) site, most text was edited and reworded after discussions with an organiser of the Syncro Ireland event, Paul Gillett.
--   All images were either supplied by the Syncro Ireland event organiser, Paul Gillett, or were taken, with kind permission, from the [UK Syncro Club](https://club8090.co.uk/) site.  Some editing, retouching and resizing was done by the site creator. 
+-   All images were either supplied by the Syncro Ireland event organiser, Paul Gillett [ [Vantopia.ie](https://vantopia.ie) ], or supplied with kind permission by the [UK Syncro Club](https://club8090.co.uk/).  Some editing, retouching and resizing was done by the site creator. 
 
 
 ### Acknowledgements
 
 -   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback.  And for introducing me to the illuminating Chrome extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)!
--   The wonderful Code Institute community on Slack and the CI staff and students - both noobs and seasoned devs alike - for all of their help and support. 
--   And finally... Thanks to fellow student @Stephen_5P for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
+-   The wonderful Code Institute community on Slack and the CI staff and students - newbies and seasoned devs alike - for all of their help and support. 
+-   And finally... Thanks to fellow student Stephen Darcy [CI Slack: @Stephen_5P] for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
 
