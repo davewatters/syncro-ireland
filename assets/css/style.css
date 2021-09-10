@@ -303,8 +303,7 @@ header {
 }
 
 .input-field:hover {
-    border: 3
-    4px solid #edda1c;
+    border: 3px solid #edda1c;
 }
 
 .input-field:focus {
@@ -329,6 +328,11 @@ header {
     flex-direction: row;
     align-items: center;
 }
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+ }
 
 #volunteer { 
     width: 3rem;
@@ -390,6 +394,7 @@ header {
     .logo {
         padding: 10px 0;
     }
+
     #menu {
         padding: 10px 0;
     }
@@ -398,7 +403,6 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        /* height: auto; */
     }
 
     .content-wrapper {
@@ -406,9 +410,10 @@ header {
     }
 
     /* 
-    Embedded iframe for YouTube video link
-    for 16:9 aspect ratio padding-bottom: 56.25%
-    for 4:3 aspect ratio padding-bttom: 75%
+      Wrappers for embedded iframe for
+      YouTube video link content images
+      for 16:9 aspect ratio padding-bottom: 56.25%
+      for 4:3 aspect ratio padding-bttom: 75%
     */
     .video-wrapper {
         width: 90%;
