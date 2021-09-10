@@ -71,7 +71,7 @@ The site was built to become the main focal point of an annual Irish event for V
         - Colour choices
             - Ford Polar White, #eef4f4
             - VW Escorial Green, #344d2c
-            - VW Brilliant Yellow, #edda1
+            - VW Brilliant Yellow, #edda1c
 
         - How colours were used
             - Body: White
@@ -86,14 +86,6 @@ The site was built to become the main focal point of an annual Irish event for V
     -   #### Imagery
         -   The main page uses a large hero image to grab the user's attention.  It is instantly recognizable as a Syncro camper van in a remote and rugged mountain landscape. Other images used on the site show Syncro vans involved in off-roading action during previous events. An embedded video can be played which is a montage of amateur enthusiast phone footage from a previous event.  All of this is very relatable and relevant to the target audience and should encourage users to connect with the organisers and want to attend events. 
 
-    -   #### Wireframes
-
-        -   ~~Home Page Wireframe - [View](https://github.com/)~~
-
-        -   ~~Mobile Wireframe - [View](https://github.com/)~~
-
-        -   ~~Signup Page Wireframe - [View](https://github.com/)~~
-
 ## - Features -
 To fulfil the needs of the site owner and its users, the following features were implemented:
 -   **Navigation Bar** contains the site name/logo and links to the Home, Events and SingUp pages. It is identical on, and positioned at, the top of all pages. It is fully responsive on different device sizes. The currently selected page is indicated with a bright yellow underline and the items change colour when the mouse hovers over them to give the user immediate visual feedback.
@@ -105,12 +97,12 @@ To fulfil the needs of the site owner and its users, the following features were
     -   This grabs the visitor's attention and appeals to their similar interests. It should encourage them to continue reading and engage with the site.  The organiser wants to appeal to this demographic. 
 <h2 align="center"><img src="docs/hero-only.png"></h2>
 
--   **Main Introduction Section** explains to the visitor wht the purpose of the site is and presents options for them to get involved and sign up for news and connect on social media.  There is also an image of a van tackling a water obstacle as part of a previous event.
+-   **Main Introduction Section** explains to the visitor what the purpose of the site is and presents options for them to get involved and sign up for news and connect on social media.  There is also an image of a van tackling a water obstacle as part of a previous event.
     -   The visitor is informed of the site's intentions regarding organising an annual event. They see an image of a van in off-road action which gives them a sense of the type of exciting activites that take place at events.
 <h2 align="center"><img src="docs/main-intro.png"></h2>
 
 -   **Site Footer** contains links to Syncro Ireland social meadia platforms. The links open in a new browser tab. The footer is identical on each page of the site.
-    -   Visitors can easily contect with the event's social media platforms as it appears at the bottom of each page. When the user hovers teh mouse over the icon it changes to a bright yellow colour to highlight the choice.  The owner makes it as easy as possible to gain followers on social media.
+    -   Visitors can easily connect with the event's social media platforms as it appears at the bottom of each page. When the user hovers the mouse over the icon it changes to a bright yellow colour to highlight the choice.  The owner makes it as easy as possible to gain followers on social media.
 <h2 align="center"><img src="docs/footer-wide.png"></h2>
 <h2 align="center"><img src="docs/footer-mobile.png"></h2>
 
@@ -145,8 +137,6 @@ To fulfil the needs of the site owner and its users, the following features were
     - birme.net was used to resize images.
 1. [TinyPNG:](https://tinypng.com/)
     - tinypng.com was used to compress large images
-1. ~~[Balsamiq:](https://balsamiq.com/)~~
-    ~~- Balsamiq was used to create the [wireframes](https://github.com/) during the design process.~~
 
 ## - Testing -
 ### UX Goals, User Stories
@@ -253,7 +243,7 @@ After final `git push` to the project repo
 
 -   All content created by the site creator [David Watters](https://github.com/davewatters/). Whilst some copy was taken, with permission, from the [Eire Syncro Facebook page](https://www.facebook.com/pages/category/Event/Eire-Syncro-261159948060757/) and the [UK Syncro Club](https://club8090.co.uk/) site, most text was edited and reworded after discussions with an organiser of the Syncro Ireland event, Paul Gillett.
 -   All images were either supplied by the Syncro Ireland event organiser, Paul Gillett [ [Vantopia.ie](https://vantopia.ie) ], or supplied with kind permission by the [UK Syncro Club](https://club8090.co.uk/).  Some editing, retouching and resizing was done by the site creator.
--   Many thanks to my partner [Deirdre Treacy](https://linkedin.com/thedeetreacy) for removing the copyrighted soundtrack from the organiser's supplied promo video. 
+-   Many thanks to my partner [Deirdre Treacy](https://linkedin.com/in/thedeetreacy) for removing the copyrighted soundtrack from the organiser's supplied promo video. 
 
 ### Acknowledgements
 
