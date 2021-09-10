@@ -29,40 +29,38 @@ The site was built to become the main focal point of an annual Irish event for V
 -   ### User stories
 
     -   ### Design Strategy Goals
-        1. Create an online presence to promote the annual Irish event
-        - 
-        1. Site must inform vistors about future and past events
-        1. Create a registration form to:
-            - capture contact details of those interested in receiving event news
-            - capture contact details of those interested in volunteering at events
-            - allow the user to submit suggestions or feedback 
-        1. Site must be intuitive to read & navigate on both desktop & mobile devices
+        -    Create an online presence to promote the annual Irish event
+        -    Site must inform vistors about future and past events
+        -    Create a registration form to:
+                - capture contact details of those interested in receiving event news
+                - capture contact details of those interested in volunteering at events
+                - allow the user to submit suggestions or feedback 
+        -    Site must be intuitive to read & navigate on both desktop & mobile devices
 
     -   ### Design Scope to Deliver MVP
         -   #### First Time Visitor Goals
             As a first time user...
-            - I want to easily understand the main purpose of the site and learn more about the organisation
-            -  I want to be able to easily navigate throughout the site to find content
-            -  I want to find their social media links to follow event news
+            -   I want to easily understand the main purpose of the site and learn more about the organisation
+            -   I want to be able to easily navigate throughout the site to find content
+            -   I want to find their social media links to follow event news
 
         -   #### Returning Visitor Goals
             As a returning visitor...
-            -  I want to be able to easily register my interest in attending an event
-            -  I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
-            -  I want to find community links
+            -   I want to be able to easily register my interest in attending an event
+            -   I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
+            -   I want to be able to view the site clearly on a mobile device
 
         -   #### Frequent User Goals
             As a frequent user...
-
-            -  I want to to see if there are any new events happening
-            -  I want to to see if there are any updates on a forthcoming event
-            -  I want to see any new photos or videos of previous events or related acitivites
+            -   I want to to see if there are any new events happening
+            -   I want to to see if there are any updates on a forthcoming event
+            -   I want to see any new photos or videos of previous events or related acitivites
 
 -   ### Design
     -   #### Layout
         A simple 3-5 page structure was discussed to satisfy and separate the strategy goals of promote, inform & register, and also allow for expansion to other pages - for example, a gallery page of images of events/attendees/vans etc., and possibly a page dedicated to the history of the VW Syncro van. For the purposes of delivering an MVP to a tight deadline, the three-page structure was decided upon to ensure it was feasible to deliver the important design strategy goals.  
         The site must appeal to a Syncro/4x4 enthusiast and present the information in a clear, accessible and obvious way whether on mobile devices or larger screens. To achieve this, page navigation links are laid out the same at the top of each page, as are links to relevant social media platforms on the bottom of each page.  
-        The main page is brief and introductory with all navigation links visible. The registration form link is presented as 'Sign Up!' - this is an obvious call-to-action.  
+        The main page is a brief, but comprehensive introduction with all navigation links visible. The registration form link is presented as 'Sign Up!' - this is an obvious call-to-action.  
         The events page clearly presents upcoming & past event news items which remain in the correct order when the layout changes in response to various screen sizes. It also includes any important event announcements (e.g. request for volunteers), presented as a mock Post-It note, to highlight the message and the call-to-action.  
         The registration form page presents a simple form for required user contact details with a choice to enter a comment or question, a check a box to volunteer, and a submit button.  
         Throughout the site all links & buttons use high contrast colours on hover or click, or when in a form data field, to provide clear visual feedback to the user when an action is taken.  All pages use images of Syncro vans at events, or in off-road locations, which appeal to the target audience and are likely to elicit a positive emotional response.  
@@ -97,10 +95,32 @@ The site was built to become the main focal point of an annual Irish event for V
         -   ~~Signup Page Wireframe - [View](https://github.com/)~~
 
 ## - Features -
+To fulfil the needs of the site owner and its users, the following features were implemented:
+-   **Navigation Bar** contains the site name/logo and links to the Home, Events and SingUp pages. It is identical on, and positioned at, the top of all pages. It is fully responsive on different device sizes. The currently selected page is indicated with a bright yellow underline and the items change colour when the mouse hovers over them to give the user immediate visual feedback.
+    -   This allows the user to navigate intuitively between the site's pages
+<h2 align="center"><img src="docs/header-wide.png"></h2>
+<h2 align="center"><img src="docs/header-mobile.png"></h2>
+   
+-   **Home Page Image** is a large hero image.  It is instantly recognizable as a Syncro camper van in a remote and rugged mountain landscape.
+    -   This grabs the visitor's attention and appeals to their similar interests. It should encourage them to continue reading and engage with the site.  The organiser wants to appeal to this demographic. 
+<h2 align="center"><img src="docs/hero-only.png"></h2>
 
--   Responsive on all device sizes
+-   **Main Introduction Section** explains to the visitor wht the purpose of the site is and presents options for them to get involved and sign up for news and connect on social media.  There is also an image of a van tackling a water obstacle as part of a previous event.
+    -   The visitor is informed of the site's intentions regarding organising an annual event. They see an image of a van in off-road action which gives them a sense of the type of exciting activites that take place at events.
+<h2 align="center"><img src="docs/main-intro.png"></h2>
 
--   ??? Interactive elements  ????
+-   **Site Footer** contains links to Syncro Ireland social meadia platforms. The links open in a new browser tab. The footer is identical on each page of the site.
+    -   Visitors can easily contect with the event's social media platforms as it appears at the bottom of each page. When the user hovers teh mouse over the icon it changes to a bright yellow colour to highlight the choice.  The owner makes it as easy as possible to gain followers on social media.
+<h2 align="center"><img src="docs/footer-wide.png"></h2>
+<h2 align="center"><img src="docs/footer-mobile.png"></h2>
+
+-   **Events Page** is presented in sections showing upcoming events first, followed by previous event news, images or videos where applicable.  Important notices or calls-to-action are presented in mock Post-It note style.
+    - All relevant information that a user might want regarding upcoming events is here.  Important news or notices are also here and is in an attention-grabbing style. The user can also browse old event news from Ireland and elsewhere, view pictures and watch event videos. The site owner is assured that the event news and the call for community engagement is being noticed.
+<h2 align="center"><img src="docs/events-news.png"></h2>
+
+-   **Signup Page** contains the form which allows the user to register their interest in upcoming events, provide feedback to the organisers and indicate that they would like to volunteer to help at the events. There are only three fields of contact information required, and two optional. The fields are clearly defined and highlighted to make it easy to fill out on screens of any size.  There is error checking built in to ensure the required fields are not left blank. When they submit the data, the user is alerted if they have missed one and can rectify it easily. 
+    -   This allows the user to easily register their interest in attending events and submit suggestions or questions to the organisers. This benefits the organiser by having one central, organised method for collecting a database of interested attendees and volunteers. This can be used as a newsletter mailing list and as an aid to planning events.
+<h2 align="center"><img src="docs/signup-page.png"></h2>
 
 ## - Technologies Used -
 
@@ -123,31 +143,39 @@ The site was built to become the main focal point of an annual Irish event for V
     - Gimp was used to edit and retouch photos for the website.
 1. [Birme:](https://www.birme.net/)
     - birme.net was used to resize images.
+1. [TinyPNG:](https://tinypng.com/)
+    - tinypng.com was used to compress large images
 1. ~~[Balsamiq:](https://balsamiq.com/)~~
     ~~- Balsamiq was used to create the [wireframes](https://github.com/) during the design process.~~
 
 ## - Testing -
 ### UX Goals, User Stories
 -   #### As a first time user...
-    - I want to easily understand the main purpose of the site and learn more about the organisation
+    -  I want to easily understand the main purpose of the site and learn more about the organisation
+        -   The main landing page was checked to ensure it explains the purpose of the allows the visitor to explore for more information 
     -  I want to be able to easily navigate throughout the site to find content
-    -  I want to find their social media links to follow event news
+        - The navigation links were checked on each page to ensure that they take the user to the intended page or section and there were no broken links 
+    -  I want to find their social media links to connect and follow event news
+        - Each page was checked to confirm that the footer contained the same links and that they would open the event's page on the correct media platform in a new browser window.
 
--   #### Returning Visitor Goals
-    As a returning visitor...
+-   #### As a returning visitor...
     -  I want to be able to easily register my interest in attending an event
+        -   The signup registration form was tested to ensure that the user could complete and submit it in a few easy steps. It was also tested to ensure the user could not submit with out filling in the three required contact fields. 
     -  I want to find the best way to get in contact with the organisers with any questions or suggestions I may have
-    -  I want to find community links
+        -   The signup/feedback form was tested to ensure that the user could submit a custom message
+    -  I want to be able to view the site clearly on a mobile device
+        -   Testing was done to ensure that the site was responsive on all device screen sizes and that the information was clear and accesible.
 
--   #### Frequent User Goals
-    As a frequent user...
-
+-   #### As a frequent user...
     -  I want to to see if there are any new events happening
+        -   I tested to ensure that upcoming event news was shown on the events page
     -  I want to to see if there are any updates on a forthcoming event
+        -   I tested to ensure that updates on upcoming events was shown on the events page
     -  I want to see any new photos or videos of previous events or realted acitivites
+        -   I tested to ensure photos and videos of previous events was present on the events page. Video playback was tested.
 
 ### Code Validation
-The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. **NOTE: All validation was re-run after fixing the errors shown below to ensure that no futher errors or warnings existed.**
+The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) services were used to validate every page of the project for syntax errors. **NOTE: All validation was re-run after fixing the errors shown below to ensure that no further errors or warnings existed.**
 
 -   index.html Warning: errant `<section>` was replaced with a `<div>` as `hero-section` is for decoration only and has no semantic use
 <h2 align="center"><img src="docs/w3c-validator-html-index.png"></h2>
@@ -161,18 +189,8 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) and [W3C C
 -   style.css: two stray commas were found and deleted
 <h2 align="center"><img src="docs/w3c-validator-css-style.png"></h2>
 
-### User Stories
-Testing User Stories from User Experience (UX) Section
-<!-- How were the User Story goals achieved? -->
--   #### First Time Visitor Goals
-
--   #### Returning Visitor Goals
-
--   #### Frequent User Goals
-<!-- **************************************** -->
-
 ### Responsiveness
-- Chrome DevTools and a Chrome extension, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB), were used to check responsiveness on various device sizes. Some issues were found at the 320px screen size where the logo and footer elements were breaking the screen width (as shown in the image below). I could see in DevTools that they had `width: 400px` set, and changing the media query for 800px or smaller screens to `max-width: 320px` would fix the issue. The code was fixed accordingly.
+- Chrome DevTools and a Chrome extension, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB), were used to check responsiveness on various device sizes. Some issues were found at the 320px screen size where the logo and footer elements were breaking the screen width (as shown in the image below). I could see in DevTools that they had `width: 400px` applied, and changing the media query for 400px or smaller screens to `max-width: 320px` would fix the issue. The code was fixed accordingly.
 <h2 align="center"><img src="docs/testing-responsive-320.png"></h2>
 
 ### Colour Scheme
@@ -187,8 +205,12 @@ and, as explained previously in the Design - [Colour Scheme](#colour-scheme) sec
 ### Form Data Validation
 The signup form was tested to ensure that the user could not submit without data in the required fileds. An example is shown below where the user has left the required Lastname field empty:
 <h2 align="center"><img src="docs/form-data-validation.png"></h2>
-The next image is a snip from the Code Institute's from dump test page showing data correctly posted to the backend:
+The next image is a snip from the Code Institute's form dump test page showing data correctly posted to the backend:
 <h2 align="center"><img src="docs/form-data-posted.png"></h2>
+
+### Further Testing
+Googe Lighthouse in Chrome DevTools was used after deployment to test the quality and performance of the site.  Initial results were satisfactory for Accessibility (100), Best Practises (93) and SEO (100), but performance was not so good with an amber score of 81. Examination of the audit trail showed that very large image file sizes were causing the lag in performance (particularly the hero image). Images were then optimized by first resizing using [Birme](https://www.birme.net), and then compressing using [TinyPNG](https://tinypng.com). After re-testing, the Lighthouse audit result was as follows:
+<h2 align="center"><img src="docs/google-lighthouse-audit.png"></h2>
 
 
 ### Bugs
@@ -231,7 +253,7 @@ After final `git push` to the project repo
 
 -   All content created by the site creator [David Watters](https://github.com/davewatters/). Whilst some copy was taken, with permission, from the [Eire Syncro Facebook page](https://www.facebook.com/pages/category/Event/Eire-Syncro-261159948060757/) and the [UK Syncro Club](https://club8090.co.uk/) site, most text was edited and reworded after discussions with an organiser of the Syncro Ireland event, Paul Gillett.
 -   All images were either supplied by the Syncro Ireland event organiser, Paul Gillett [ [Vantopia.ie](https://vantopia.ie) ], or supplied with kind permission by the [UK Syncro Club](https://club8090.co.uk/).  Some editing, retouching and resizing was done by the site creator.
--   Many thanks to my partner Deirdre for removing the copyrighted soundtrack from the organiser's supplied promo video. 
+-   Many thanks to my partner [Deirdre Treacy](https://linkedin.com/thedeetreacy) for removing the copyrighted soundtrack from the organiser's supplied promo video. 
 
 ### Acknowledgements
 
