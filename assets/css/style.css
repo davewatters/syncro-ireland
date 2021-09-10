@@ -17,6 +17,7 @@ body {
     color: #344d2c;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: Raleway, sans-serif;
     font-size: 1.6rem;
     min-height: 100vh;
@@ -376,6 +377,48 @@ textarea {
     background-color: #edda1c;
     border-color: #344d2c;
     color: #344d2c;
+}
+
+/* 
+* 404 Page
+*/
+.outer-404-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#wrapper-404 {
+    font-size: 5rem;
+    text-align: center;
+    max-width: 320px;
+    margin-bottom: 2rem;
+}
+
+#wrapper-404 > p {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.take-me-home {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #344d2c;
+    border: 2px solid #edda1c;
+    border-radius: 5px;
+    color: #edda1c;
+    font-size: large;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.take-me-home:hover {
+    background-color: #edda1c;
+    border-color: #344d2c;
+    color: #344d2c;
+
 }
 
 /* 
