@@ -513,6 +513,11 @@ textarea {
     #menu {
         width: 100%;
     }
+
+    .sticky-note {
+        height: auto;
+    }
+    
     #signup-form {
         margin: 2%;
     }

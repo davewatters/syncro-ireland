@@ -129,6 +129,15 @@ To fulfil the needs of the site owner and its users, the following features were
     -   This allows the user to recover from a system or user error by simply linking back to the main site page. They see a short 'Offroaders' joke (see [credits](#credits) below) which might be mildly amusing (which is nice!) to the target demographic of the visitor. A prominent link, which also highlights on hover, makes it stress free to find their way back to the main site. The organiser benefits by keeping the vistor within the site even in the event of an error like this, and hopefully does it in a stress free and amusing way.
 <h2 align="center"><img src="docs/snip-404.png"></h2>
 
+## - Future Features -
+I would like to have implemented these, but decided to stick with producing the MVP
+-   A gallery page showing Syncro vans and attendees in action at events
+-   An About Syncro or Syncro History page dedicated to explaining to visitors what makes a Syncro, a Syncro.
+<!--  -->
+<!-- End Features -->
+<!--  -->
+
+
 ## - Technologies Used -
 
 ### Languages Used
@@ -222,8 +231,9 @@ Googe Lighthouse in Chrome DevTools was used after deployment to test the qualit
 
 1.  Supplied event promo video wouldn't play when embedded due to there being copyrighted music on the sondtrack. 
     -   Fixed by editing the video to remove the copyrighted soundtrack
-1.  footer slightly off-centre on screens below 320px
+1.  Footer slightly off-centre on screens below 320px
     -   Fixed with media query edit
+1.  Images in content (events page) are silighty off-centre at lower screen sizes
 <!--  -->
 <!-- end of testing section -->
 <!--  -->
