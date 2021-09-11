@@ -81,10 +81,21 @@ The site was built to become the main focal point of an annual Irish event for V
             - Highlights (Active/Selected/Border): Yellow
 
     -   #### Typography
-        -  The Google font, Raleway, was chosen as its unique 'W' bears some resemblance to the W in the iconic VW logo.
+        The Google font, Raleway, was chosen as its unique 'W' bears some resemblance to the W in the iconic VW logo.
 
     -   #### Imagery
-        -   The main page uses a large hero image to grab the user's attention.  It is instantly recognizable as a Syncro camper van in a remote and rugged mountain landscape. Other images used on the site show Syncro vans involved in off-roading action during previous events. An embedded video can be played which is a montage of amateur enthusiast phone footage from a previous event.  All of this is very relatable and relevant to the target audience and should encourage users to connect with the organisers and want to attend events. 
+        The main page uses a large hero image to grab the user's attention.  It is instantly recognizable as a Syncro camper van in a remote and rugged mountain landscape. Other images used on the site show Syncro vans involved in off-roading action during previous events. An embedded video can be played which is a montage of amateur enthusiast phone footage from a previous event.  All of this is very relatable and relevant to the target audience and should encourage users to connect with the organisers and want to attend events.
+    
+    -   #### Wireframes
+        I did not create wireframes with software like Balsamiq, but I have decided to include pictures of my pencil sketches of my layout design process.  These do not necessarily represent the final look of the site pages, but are presented here to show how I went about fleshing out my initial thoughts and ideas about how to structure the site before a line of code was written.
+<h2 align="center"><img src="docs/wf-index-wide.jpg"></h2>
+<h2 align="center"><img src="docs/wf-index-mobile.jpg"></h2>
+<h2 align="center"><img src="docs/wf-footer.jpg"></h2>
+<h2 align="center"><img src="docs/wf-events.jpg"></h2>
+<h2 align="center"><img src="docs/wf-signup.jpg"></h2>
+<h2 align="center"><img src="docs/wf-404.jpg"></h2>
+<h2 align="center"><img src="docs/wf-404-mobile.jpg"></h2>
+
 
 ## - Features -
 To fulfil the needs of the site owner and its users, the following features were implemented:
@@ -113,6 +124,10 @@ To fulfil the needs of the site owner and its users, the following features were
 -   **Signup Page** contains the form which allows the user to register their interest in upcoming events, provide feedback to the organisers and indicate that they would like to volunteer to help at the events. There are only three fields of contact information required, and two optional. The fields are clearly defined and highlighted to make it easy to fill out on screens of any size.  There is error checking built in to ensure the required fields are not left blank. When they submit the data, the user is alerted if they have missed one and can rectify it easily. 
     -   This allows the user to easily register their interest in attending events and submit suggestions or questions to the organisers. This benefits the organiser by having one central, organised method for collecting a database of interested attendees and volunteers. This can be used as a newsletter mailing list and as an aid to planning events.
 <h2 align="center"><img src="docs/signup-page.png"></h2>
+
+-   **404 Page** contains the full site look - working header and footer - with another prominent central link which takes the user back to the main home page.
+    -   This allows the user to recover from a system or user error by simply linking back to the main site page. They see a short 'Offroaders' joke (see [credits](#credits) below) which might be mildly amusing (which is nice!) to the target demographic of the visitor. A prominent link, which also highlights on hover, makes it stress free to find their way back to the main site. The organiser benefits by keeping the vistor within the site even in the event of an error like this, and hopefully does it in a stress free and amusing way.
+<h2 align="center"><img src="docs/snip-404.png"></h2>
 
 ## - Technologies Used -
 
@@ -243,10 +258,11 @@ After final `git push` to the project repo
 
 -   All content created by the site creator [David Watters](https://github.com/davewatters/). Whilst some copy was taken, with permission, from the [Eire Syncro Facebook page](https://www.facebook.com/pages/category/Event/Eire-Syncro-261159948060757/) and the [UK Syncro Club](https://club8090.co.uk/) site, most text was edited and reworded after discussions with an organiser of the Syncro Ireland event, Paul Gillett.
 -   All images were either supplied by the Syncro Ireland event organiser, Paul Gillett [ [Vantopia.ie](https://vantopia.ie) ], or supplied with kind permission by the [UK Syncro Club](https://club8090.co.uk/).  Some editing, retouching and resizing was done by the site creator.
--   Many thanks to my partner [Deirdre Treacy](https://linkedin.com/in/thedeetreacy) for removing the copyrighted soundtrack from the organiser's supplied promo video. 
+-   Many thanks to my partner [Deirdre Treacy](https://linkedin.com/in/thedeetreacy) for removing the copyrighted soundtrack from the organiser's supplied promo video.
 
 ### Acknowledgements
 
--   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback.  And for introducing me to the illuminating Chrome extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+-   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback and knowledge.  And for introducing me to the illuminating Chrome extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
 -   The wonderful Code Institute community on Slack and the CI staff and students - newbies and seasoned devs alike - for all of their help and support. 
--   And finally... Thanks to fellow student Stephen Darcy [CI Slack: @Stephen_5P] for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
+-   Thanks to fellow student Stephen Darcy [CI Slack: @Stephen_5P] for suggesting [Birme](https://www.birme.net/) for bulk resiszing of images - what a time saver it turned out to be!
+-   The joke on the 404 page is a reference to 90s British TV show [The Fast Show](https://en.wikipedia.org/wiki/The_Fast_Show), created by Paul Whitehouse & Charlie Higson.  I have them to thank for 'Simon & Lindsey, The Offroaders' - two avid off road entusiasts who were always 'Gripped!' and 'Sorted!', and then invariably...  got lost. 
